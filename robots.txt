@@ -1,0 +1,63 @@
+﻿# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+# GABON African Chicken â€” robots.txt
+# Domain: https://gabonafricanchicken.rf.gd
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+# Allow all legitimate search engine crawlers
+User-agent: *
+Allow: /
+Allow: /assets/images/
+Allow: /assets/css/
+Allow: /assets/js/
+Disallow: /assets/js/main.js
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Facebook crawler (for Open Graph)
+User-agent: facebookexternalhit
+Allow: /
+
+# WhatsApp link previews
+User-agent: WhatsApp
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# Google PageSpeed / Lighthouse
+User-agent: Chrome-Lighthouse
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+
+# Sitemap locations
+Sitemap: https://gabonafricanchicken.rf.gd/sitemap.xml
+
